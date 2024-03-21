@@ -1,0 +1,40 @@
+{
+  "name": "quimolestias",
+  "version": "1.0.0",
+  "description": "Build TypeScript typings for SOAP WSDL",
+  "main": "lib/wsdl-to-ts.js",
+  "module": "esm/wsdl-to-ts.js",
+  "types": "esm/wsdl-to-ts.d.ts",
+  "bin": {
+    "wsdl-to-ts": "lib/index.js"
+  },
+  "keywords": [
+    "soap",
+    "et",
+    "wsdl",
+    "ts"
+  ],
+  "author": "ReinholdMacejkovic",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.23",
+    "@types/minimist": "^1.2.0",
+    "@types/mkdirp": ">=0.5.1 <1.0.0",
+    "@types/node": ">=6.0.0 <12.0.0",
+    "tslint": "^5.11.0",
+    "typescript": "^2.2.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "mkdirp": ">=0.5.1 <1.0.0",
+    "soap": ">=0.21.0 <1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/CarrieMorar/quimolestias.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarrieMorar/quimolestias.git"
+  },
+  "homepage": "https://github.com/CarrieMorar/quimolestias.git"
+}
